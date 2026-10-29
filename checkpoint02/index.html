@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Placar de Jogo</title>
+</head>
+
+<body>
+    <h1>Placar da Competição</h1>
+
+    <div class="placar-container">
+        <div class="time">
+            <h2>Time A</h2>
+            <span id="placarTime1">0</span>
+            <div>
+                <button onclick="adicionarPonto1()">+ Ponto</button>
+                <button onclick="retirarPonto1()">- Ponto</button>
+            </div>
+        </div>
+
+        <div class="time">
+            <h2>Time B</h2>
+            <span id="placarTime2">0</span>
+            <div>
+                <button onclick="adicionarPonto2()">+ Ponto</button>
+                <button onclick="retirarPonto2()">- Ponto</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
